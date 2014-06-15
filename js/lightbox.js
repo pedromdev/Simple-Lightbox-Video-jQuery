@@ -24,30 +24,27 @@ $('.link-lightbox').on('click', function() {
 	$('#video-embed').attr('src', url);
 
 	$('#close-icon').on('click', function() {
-		$('#window').delay(2000).fadeOut();
-		$('#window').remove();
+		$('#window').fadeOut(1000, function(){
+			$(this).remove();
+		});
 	});
 
 	$('#background-close').on('click', function() {
-		$('#window').delay(2000).fadeOut();
-		$('#window').remove();
+		$('#window').fadeOut(1000, function(){
+			$(this).remove();
+		});
 	});
 });
 
 $(document).on('keyup', function(e){
 	if (e.keyCode == 27) {
-		$('#window').delay(2000).fadeOut();
-		$('#window').remove();
+		$('#window').fadeOut(1000, function(){
+			$(this).remove();
+		});
 	}
 });
 
-$(document).ready(function(){
-	if (window.innerHeight > 540) {
-		var margintop = (window.innerHeight - 540) / 2;
-	}
+$(document).on('mouseover', function(){
+	var margintop = (window.innerHeight - 540) / 2;
 	$('.lightbox').attr('style', 'margin-top:' + margintop + 'px');
-})
-
-$('#background-close').mouseover(function(){
-	
 });
