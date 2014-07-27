@@ -1,4 +1,4 @@
-#window{
+#slvj-window{
 	width: 100%;
 	min-height: 100%;
 	z-index: 30;
@@ -10,13 +10,13 @@
 	left: 0;
 }
 
-#window,
-#window *{
+#slvj-window,
+#slvj-window *{
 	-webkit-box-sizing: border-box;
 			box-sizing: border-box;
 }
 
-#background-close{
+#slvj-background-close{
 	width: 100%;
 	min-height: 100%;
 	z-index: 31;
@@ -26,7 +26,7 @@
 	left: 0;
 }
 
-#back-lightbox{
+#slvj-back-lightbox{
 	width: 700px;
 	height: 540px;
 	margin: auto;
@@ -34,7 +34,7 @@
 	z-index: 32;
 }
 
-.lightbox{
+.slvj-lightbox{
 	position: relative; 
 
 	width: 100%;
@@ -52,7 +52,7 @@
 	z-index: 53;
 }
 
-#close-icon{
+#slvj-close-icon{
 	background-image: url(../img/close-icon.png);
 	background-repeat: no-repeat;
 	width: 11px;
@@ -65,6 +65,6 @@
 	z-index: 551;
 }
 
-#close-icon:hover{
+#slvj-close-icon:hover{
 	cursor: pointer;
 }
