@@ -43,7 +43,7 @@ Agora adicione o arquivo JavaScript no final do html
 		<tr>
 			<td>class</td>
 			<td>Classe usada para chamar a funcionalidade do lightbox</td>
-			<td>link-lightbox</td>
+			<td>slvj-link-lightbox</td>
 		</tr>
 		<tr>
 			<td>data-videoid</td>
