@@ -50,6 +50,8 @@
 					var url = 'http://www.youtube.com/embed/' + $(this).data('videoid') + '?autoplay=1';
 				} else if($(this).data('videosite') == "vimeo") {
 					var url = 'http://player.vimeo.com/video/' + $(this).data('videoid') + '?autoplay=1';
+				} else if($(this).data('videosite') == "limelight") {
+					var url = 'http://link.videoplatform.limelight.com/media/?mediaId=' + $(this).data('videoid') + '&width=640&height=360&playerForm=Player&embedMode=html&htmlPlayerFilename=limelightjs-player.js';
 				}
 
 				$('#slvj-window').fadeIn();
