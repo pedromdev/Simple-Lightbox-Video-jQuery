@@ -51,7 +51,7 @@ Agora faça a chamada do método no final do html
 		<tr>
 			<td>data-videosite</td>
 			<td>Atributo contendo o site que contém o vídeo</td>
-			<td>youtube, vimeo</td>
+			<td>youtube, vimeo, limelight</td>
 		</tr>
 	</tbody>
 </table>
